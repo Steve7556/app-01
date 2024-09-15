@@ -2,22 +2,10 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
-        "types": [
-      "nativewind/types",
-      "long",
-      "node-fetch",
-      "seedrandom"
-    ],
+    "types": ["nativewind/types", "long", "node-fetch", "seedrandom"],
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts", "assets/fonts/**/*"]
 }
